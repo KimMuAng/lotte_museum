@@ -1,0 +1,49 @@
+.footer {
+    position: relative;
+    height: 6.5vh;
+    width: 100%;
+    display: block;
+    padding: 0 6.5vh;
+    background-color: #000000;
+    text-align: center;
+}
+
+.footer-left {
+    float: left;
+    padding-top: 2.77vh;
+    vertical-align: middle;
+    text-align: left;
+    width: 50%;
+    height: inherit;
+    font-family: 'Noto Sans KR';
+    color: #5e5e5e;
+    font-size: 1.38vh;
+}
+
+.footer-left b {
+    font-family: Roboto;
+    font-size: 1.3vh;
+    color: #fff;
+}
+
+.footer-left img {
+    display: inline-block;
+    width: 1.2vw;
+}
+
+.footer-right {
+    float: right;
+    padding-top: 2.77vh;
+    vertical-align: middle;
+    text-align: right;
+    width: 50%;
+    height: inherit;
+    font-family: 'Noto Sans KR';
+    color: #5e5e5e;
+    font-size: 1vh;
+}
+
+.footer-right img {
+    width: 2.13vh;
+    margin-left: 0.5rem;
+}

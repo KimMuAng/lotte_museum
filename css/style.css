@@ -1,0 +1,26 @@
+@import './reset.css';
+
+/* Fonts */
+/* noto sans & roboto */
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR|Roboto&display=swap');
+
+/* gotham black */
+@font-face {
+    font-family: 'Gotham Black';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gotham Black'), url('fonts/Gotham Black Regular.woff') format('woff');
+    }
+
+/* aliens and cows */
+@font-face {
+    font-family: 'Aliens and Cows';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Aliens and Cows'), url('fonts/aliens and cows_trial.ttf') format('truetype');
+    }
+
+html { font-size: 16px; }
+
+body {font-family:'Noto Sans KR','Malgun Gothic','맑은고딕',Dotum,'돋움',Gulim,'굴림',Helvetica,Arial,sans-serif;
+            line-height: 1;}

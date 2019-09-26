@@ -1,0 +1,208 @@
+.main-content {
+    position: relative;
+    width: 100%;
+    height: 48.95vw;
+    background-color: #000000;
+    text-align: center;
+}
+
+.swiper-container.main1{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-container.vertical{
+    display: block;
+    padding: 0 3.645vw !important;
+    width: 100%;
+    height: 100%;
+}
+
+.main-content .cover-box{
+    display: block;
+    float: left;
+    position: absolute;
+    width: inherit;
+    padding: 0 3.645vw;
+    text-align: center;
+    z-index: 2;
+    margin-top: 18.23vw;
+    pointer-events: none;
+}
+
+.main-content .cover-box .title {
+    display: block;
+    font-family: 'Aliens and Cows';
+    font-size: 6.25vw;
+    color: #ffffff;
+    z-index: 2;
+}
+
+.main-content .cover-box .sub-title{
+    font-weight: lighter;
+    display: block;
+    font-family: Roboto;
+    font-size: 1.25vw;
+    color: #ffffff;
+    z-index: 2;
+}
+
+.main-content .cover-box .side-menu{
+    position: absolute;
+    display: block;
+    right: 0;
+    margin-right: 3.125vw;
+    bottom: 0;
+    margin-bottom: 2.125vw;
+}
+
+
+.main-content .cover-box .side-menu ul li{
+    display: inline-block;
+    color: #ffffff;
+    font-size: 0.83vw;
+    font-family: 'Noto Sans KR';
+    margin-right: 2.6vw;
+}
+
+.main-content .cover-box .side-menu ul li img{
+    height: 2.4vw;
+    display: inline-block;
+}
+
+.main-content .cover-box .side-menu p {
+    margin-top: 1vw;
+}
+
+.main1-line {
+    vertical-align: middle;
+    display: inline-block;
+    background: #d4d3d2;
+    width: 1px;
+    height: 4.947vw;
+    margin-top: 1.146vw;
+}
+
+.main-content .cover-box .button{
+    display: inline-block;
+    font-family: "Noto Sans KR";
+    font-size: 0.44vw;
+    color: #ffffff;
+    background-color: rgba( 255, 255, 255, 0.0);
+    border: 1px solid #e5e5e5;
+    width: 9.48vw;
+    height: 2.5vw;
+    pointer-events: auto;
+    margin-top: 1.3vw;
+}
+
+/* .main1-wheel {
+    margin-top: 1.3vw;
+} */
+
+.main1-wheel {
+    cursor: pointer;
+    pointer-events: auto;
+}
+
+.main1-wheel img{
+    width: 1.3vw;
+    margin-top: 1.0vw;
+}
+
+.slide-img {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    /* font-size: 18px; */
+    /* background: #fff; */
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-pagination.main1-paging {
+    pointer-events: auto;
+    margin-top: 7.8vw !important;
+    position: relative !important;
+    text-align: center !important;
+    /* padding-bottom: 5.625rem; */
+}
+
+/* .swiper-pagination-clickable .swiper-pagination-bullet::after{content: '';display: block;background: #fff;width: 1.82vw;height: 1px;} */
+
+
+
+.main1-paging .swiper-pagination-bullet {
+    margin: 0.31vw !important;
+    z-index: 2 !important;
+    display: inline-block !important;
+    width: 1.82vw !important;
+    height: 0.26vw !important;
+    text-align: center;
+    /* line-height: 20px; */
+    /* font-size: 12px; */
+    color:#000;
+    opacity: 1 !important;
+    background: #ffffff !important;
+    border-radius: 0 !important;
+  }
+
+  .main1-paging .swiper-pagination-bullet-active {
+    z-index: 2 !important;
+    color:#fff;
+    background: #8a6439 !important;
+  }
+
+  
+.swiper-pagination.vertical-paging {
+    font-family: "Noto Sans KR";
+    font-size: 0.675vw;
+    z-index: 3;
+    background-color: #000;
+    position: absolute !important;
+    display: block !important;
+    margin-top: 21.1vw !important;
+    text-align: center !important;
+    transform: rotate(90deg); 
+    top: 0;
+    transform-origin: 16% 0%;
+    /* margin-left: -5.25rem; */
+}
+
+.vertical-paging span{
+    font-weight: 100 !important;
+    width: auto !important;
+    height: auto !important;
+    display: inline-block;
+    background: none;
+    /* padding: 1vw; */
+    color: #fff;
+    transform: rotate(180deg) !important;
+}
+
+.vertical-line {
+    vertical-align: middle;
+    display: inline-block;
+    background: #454545 !important;
+    width: 1.82vw;
+    height: 1px;
+}
+
+.vertical-paging p {
+    display: inline-block;
+}

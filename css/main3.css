@@ -1,0 +1,93 @@
+.grid-wrapper2 {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 0px;
+    grid-auto-rows: minmax(100px, auto);
+    background-color: #161616;
+}
+
+.grid-wrapper2 .left, .grid-wrapper2 .right{
+    padding-top: 12.76vw;
+}
+
+.grid-wrapper2 .left img, 
+.grid-wrapper2 .left .desc {
+    margin-right: 0.6vw;
+    float: right;
+    text-align: center;
+    width: 27.08vw;
+}
+
+.grid-wrapper2 .left img,
+.grid-wrapper2 .right img {
+    width: 27.08vw;
+    height: auto;
+}
+
+.grid-wrapper2 .center img {
+    width: 27.08vw;
+    height: auto;
+    margin-top: 7.84vh;
+}
+
+.grid-wrapper2 .desc h1 {
+    margin-top: 3.125vw;
+    font-size: 1.458vw;
+    font-family: 'Noto Sans KR';
+    font-weight: 400;
+    color: #fff;
+}
+
+.grid-wrapper2 .desc h1 a {
+    font-weight: 600;
+    color: #795d3d;
+}
+
+.grid-wrapper2 .desc p {
+    margin-top: 1.04vw;
+    color: #8b8b8b;
+    font-size: 0.83vw;
+}
+
+.grid-wrapper2 .desc .bt-more {
+    margin-top: 2.5vw;
+    display: inline-block;
+    border: solid 1px #606060;
+    font-size: 0.83vw;
+    font-family: 'Noto Sans KR';
+    font-weight: 500;
+    color: #fff;
+    background-color: rgb(1, 1, 1, 0);
+    width: 8.43vw;
+    height: 1.875vw;
+}
+
+.grid-wrapper2 .center {
+}
+
+.grid-wrapper2 .center .title h3 {
+    margin-top: 5.625vw;
+    font-size: 1.04vw;
+    font-weight: 400;
+    color: #8f8f8f;
+    letter-spacing: 4px;
+}
+
+.grid-wrapper2 .center .title h1 {
+    margin-top: 2.34vw;
+    font-size: 3.645vw;
+    font-weight: 200;
+    color: #fff;
+    font-family: 'Aliens and Cows';
+}
+
+.grid-wrapper2 .right img, 
+.grid-wrapper2 .right .desc {
+    margin-left: 0.6vw;
+    float: left;
+    text-align: center;
+    width: 27.08vw;
+}

@@ -1,0 +1,293 @@
+.contents-wrap {
+    width: 100%;
+    /* padding: 1.875rem; */
+    padding: 0 4vw;
+    background-color: #000;
+}
+
+.contents-wrap-wopd {
+    position: relative;
+    width: 100%;
+    padding: 4vw 0;
+    background-color: #000;
+}
+
+.main1 {
+    padding: 20vw 0 0 0;
+    text-align: center;
+    position: relative;
+}
+
+.main1 img {
+    width: 92vw;
+    height: 117.8vw;
+}
+
+.main1 .text{
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    z-index: 2;
+}
+
+.main1 .text h1 {
+    width: 100%;
+    margin-top: 32vw;
+    font-weight: 200;
+    display: block;
+    font-family: 'Aliens and Cows';
+    font-size: 17.3vw;
+    color: #ffffff;
+    z-index: 2;
+}
+
+.main1 .text h3 {
+    margin-top: 3vw;
+    font-weight: 100;
+    font-size: 3.46vw;
+    font-family: 'Roboto';
+    color: #ffffff;
+}
+
+.main1 .text button {
+    margin-top: 15vw;
+    font-family: "Noto Sans KR";
+    font-size: 3.73vw;
+    color: #ffffff;
+    width: 48vw;
+    height: 13vw;
+    background: rgba(225, 225, 225, 0);
+    border: 2px solid #ffffff;
+}
+
+.swiper-pagination.main1-paging {
+    margin-top: 26vw;
+    position: relative !important;
+    text-align: center !important;
+}
+
+.main1-paging .swiper-pagination-bullet {
+    margin: 3px !important;
+    z-index: 2 !important;
+    display: inline-block !important;
+    width: 34px !important;
+    height: 3px !important;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    color:#000;
+    opacity: 1 !important;
+    background: #ffffff !important;
+    border-radius: 0 !important;
+}
+
+.main1-paging .swiper-pagination-bullet-active {
+    z-index: 2 !important;
+    color:#fff;
+    background: #8a6439 !important;
+}
+
+.exhibition {
+    position: relative;
+    text-align: center;
+}
+
+.exhibition h1 {
+    letter-spacing: 1.33vw;
+    text-align: center;
+    display: inline-block;
+    font-weight: 400;
+    margin-top: 13.33vw;
+    font-size: 4.67vw;
+    font-family: "Noto Sans KR";
+    color: #fff;
+}
+
+/* .exhibition-slider .swiper-slide {
+    display: inline-block;
+    width: 73.33vw !important;
+} */
+
+.exhibition-slider {
+    margin-top: 7.33vw !important;
+}
+
+.exhibition-slider .swiper-slide {
+    position: relative;
+    width: 73.33vw;
+    height: 61.33vw;
+}
+
+.exhibition-slider .swiper-slide h2{
+    font-size: 12vw;
+    font-family: "Aliens and Cows";
+    font-weight: 300;
+    color: #fff;
+    margin-top: 9.3vw;
+}
+
+.slide-img {
+    width: 73.33vw !important;
+}
+
+.exhibiting {
+    /* position: absolute; */
+    width: 60px;
+}
+
+/* .event {
+    margin: 9.4vw 4vw 0 4vw;
+} */
+
+.event .title {
+    margin: 9.4vw 4vw 0 4vw;
+    position: relative;
+    height: 10vw;
+    border-bottom: 2px solid #606060;
+}
+
+.event .title h3 {
+    letter-spacing: 1.33vw;
+    position: absolute;
+    left: 0;
+    bottom: 3.33vw;
+    font-family: "Noto Sans KR";
+    font-weight: 700;
+    font-size: 4.67vw;
+    color: #333333;
+}
+
+.event .title a {
+    position: absolute;
+    right: 0;
+    bottom: 4vw;
+    color: #2d2d2d;
+    font-family: "Noto Sans KR";
+    font-weight: bold;
+    font-size: 3.16vw;
+}
+
+.event-slider {
+    margin-top: 5.33vw !important;
+}
+
+.event-slider .swiper-slide {
+    width: 40vw !important;
+    height: 45.3vw !important;
+    font-family: "Noto Sans KR" !important;
+    margin-right: 2.67vw !important;
+}
+
+.event-slider img {
+    width: 100% !important;
+    height: 26.26vw !important;
+}
+
+.event-slider h4 {
+    margin-top: 6.7vw;
+    font-weight: 400;
+    font-size: 3.7vw;
+    color: #fff;
+}
+
+.event-slider h4 b{
+    font-weight: 400;
+    color: #bb8c57;
+}
+
+.event-slider p {
+    margin-top: 3.33vw;
+    font-weight: 800;
+    color: #353535;
+    font-size: 2.93vw;
+}
+
+.notice .title {
+    padding: 13.33vw 4vw 0 4vw;
+    position: relative;
+    height: 10vw;
+    border-bottom: 2px solid #606060;
+}
+
+.notice .title h3 {
+    letter-spacing: 1.33vw;
+    position: absolute;
+    left: 0;
+    bottom: 2.67vw;
+    font-family: "Noto Sans KR";
+    font-weight: 400;
+    font-size: 4.67vw;
+    color: #fff;
+}
+
+.notice .title a {
+    position: absolute;
+    right: 0;
+    bottom: 4vw;
+    color: #2d2d2d;
+    font-family: "Noto Sans KR";
+    font-weight: bold;
+    font-size: 3.16vw;
+}
+
+.notice .content {
+    position: relative;
+    width: 100%;
+    height: 23vw;
+    border-bottom: 1px solid #303030;
+}
+
+.notice .content h3{
+    padding-top: 6.67vw;
+    font-size: 4.267vw;
+    color: #808080;
+}
+
+.notice .content p {
+    color: #606060;
+    font-size: 3.2vw;
+    margin-top: 3.33vw;
+}
+
+.notice .content img {
+    width: 3.06vw;
+    height: auto;
+    position: absolute;
+    right: 0;
+    bottom: 8vw;
+}
+
+.contents-wrap-wopd.contact {
+    padding: 7.6vw 0 0 0;
+    text-align: center;
+}
+
+.contact .content {
+    display: inline-block;
+    text-align: center;
+    width: 23%;
+    padding-bottom: 7.46vw;
+}
+
+.contact .content img {
+    width: auto;
+    height: 7.33vw;
+}
+
+.contact .content h4 {
+    margin-top: 2.67vw;
+    font-weight: 400;
+    font-size: 2.67vw;
+    color: #fff;
+}
+
+.contact .border-line {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 1px;
+    height: 6vw;
+    background: #1e1e1e;
+}

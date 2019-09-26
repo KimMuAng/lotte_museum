@@ -1,0 +1,130 @@
+.header {
+    position: relative;
+    width: 100%;
+    height: 3.645vw;
+    display: block;
+    padding-right: 3.645vw;
+    background-color: #000000;
+    text-align: center;
+    z-index: 2;
+}
+
+.header .menu {
+    z-index: 2;
+    position: relative;
+    width: 3.645vw;
+    height: 3.645vw;
+    float: left;
+    text-align: center;
+}
+
+.header .menu img{
+  width: 1.458vw;
+  height: auto;
+  margin-top: 1.458vw;
+  margin-left: 1.1vw;
+  z-index: 1;
+  position: absolute;
+  left: 0;
+}
+
+.header .logo {
+    height: inherit;
+    display: inline-block;
+}
+
+.header .logo img{
+    margin-top: 1.458vw;
+    width: 4.687vw;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.header .logo h1 {
+    margin-top: 1.21vw;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 1.25vw;
+    font-family: 'Gotham Black';
+}
+
+.header .list {
+  bottom: 0;
+  right: 0;
+  font-size: 0.729vw;
+  padding-right: 3.645vw;
+  position: absolute;
+  height: inherit;
+  display: block;
+  float: right;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: right;
+}
+
+.header .list ul li{
+  padding-top: 1.458vw;
+  padding-left: 1.3vw;
+  display: inline-block;
+}
+
+
+/* 사이드 nav 임시 */
+.sidenav {
+  vertical-align: middle;
+  text-align: center;
+  height: 100%;
+  /* width: 0; */
+  width: 14.1vw;
+  position: fixed;
+  z-index: 5;
+  top: 0;
+  left: -14.1vw;
+  background-color: rgba(0,0,0,0.8);
+  overflow-x: hidden;
+  transition: 0.8s;
+  padding-top: 7.291vw;
+  /* opacity: 0.85; */
+}
+
+.menu-line {
+  vertical-align: middle;
+  display: inline-block;
+  background: #656668;
+  width: 2.08vw;
+  height: 1px;
+}
+
+  .sidenav a {
+    text-align: center;
+    padding-top: 1.45vw;
+    padding-bottom: 1.45vw;
+    text-decoration: none;
+    font-size: 1.04vw;
+    color: #ababab;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #bb8c57;
+  }
+  
+  .sidenav .closebtn {
+    padding-top: 0;
+    width: 3.645vw;
+    height: auto;
+    position: absolute;
+    top: 0;
+  }
+
+  .sidenav .closebtn span {
+    width: 100%;
+    height: 100%;
+  }
+
+  .sidenav .closebtn img {
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+  }

@@ -1,0 +1,137 @@
+.header {
+    z-index: 999;
+    position: fixed;
+    width: 100%;
+    /* height: 7.5rem; */
+    height: 16vw;
+    display: block;
+    /* padding-left: 1.875rem;
+    padding-right: 1.875rem; */
+    padding: 0 4vw;
+    background-color: #000000;
+    text-align: center;
+}
+
+.header .menu {
+    display: block;
+    float: left;
+    /* width: 4.375rem; */
+    width: 9.33vw;
+    /* height: 7.5rem; */
+    height: 16vw;
+}
+
+.header .menu img {
+    /* padding-top: 3.25rem; */
+    padding-top: 6.93vw;
+    float: left;
+    /* width: 3.125rem; */
+    height: auto;
+    width: 6.67vw;
+}
+
+.header .menu img.previous {
+    padding-top: 8.4vw;
+    width: 2.67vw;
+    height: auto;
+    float: left;
+    z-index: 1;
+}
+
+.header .logo {
+    /* padding-top: 3.5rem; */
+    /* padding-top: 7.46vw; */
+    display: inline-block;
+    /* width: 22.5rem; */
+    width: 48vw;
+    height: auto;
+    position: relative;
+}
+
+.header .logo p {
+    letter-spacing: 4.5px;
+    font-weight: 100;
+    color: #eeeeee;
+    padding-bottom: 3.33vw;
+    padding-top: 2vw;
+    text-align: center;
+    font-size: 2.4vw;
+}
+
+.header .logo img{
+    margin-right: 2.7vw;
+    /* padding-top: 0.3125rem; */
+    padding-top: 0.67vw;
+    /* width: 9.375rem; */
+    width: 20vw;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.header .logo h1 {
+    display: inline-block;
+    color: #ffffff;
+    /* font-size: 2.375rem; */
+    font-size: 5.067vw;
+    font-family: 'Gotham Black';
+}
+
+.header .logo h2 {
+    display: inline-block;
+    color: #ffffff;
+    /* font-size: 2.375rem; */
+    font-size: 5.067vw;
+    font-family: 'Noto Sans KR';
+    font-weight: bold;
+}
+
+.header .logo a {
+    font-size: 4vw;
+}
+
+.header .mypage {
+    display: block; 
+    float: right;
+    /* width: 4.375rem; */
+    width: 9.33vw;
+    /* height: 7.5rem; */
+    height: 16vw;
+}
+
+.header .mypage img {
+    width: 6vw;
+    padding-top: 5.33vw;
+    float: right;
+}
+
+.footer {
+    text-align: center;
+    padding: 8vw 4vw 4vw 4vw;
+    width: 100%;
+    height: 32.267vw;
+    background: #111111;
+}
+
+.footer .content {
+    text-align: center;
+    display: inline-block;
+    width: 32%;
+}
+
+.footer .content h3 {
+    font-size: 3.8vw;
+    font-weight: 400;
+    color: #606060;
+}
+
+
+.footer .copyright {
+    margin-top: 6.7vw;
+    width: 100%;
+}
+
+.footer .copyright h3{
+    font-weight: 600;
+    font-size: 3.2vw;
+    color: #484848;
+}
